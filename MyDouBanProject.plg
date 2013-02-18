@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyDouBanProject - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\hp\AppData\Local\Temp\RSPF150.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/MyDouBanProject.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\hp\Desktop\MyDouBanProject\MyDouBanProject\MyDouBanProjectDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\hp\AppData\Local\Temp\RSPF150.tmp" 
+Creating temporary file "C:\Users\hp\AppData\Local\Temp\RSPF151.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MyDouBanProject.pdb" /machine:I386 /out:"Release/MyDouBanProject.exe" 
+.\Release\common.obj
+.\Release\MyDouBan.obj
+.\Release\MyDouBanProject.obj
+.\Release\MyDouBanProjectDlg.obj
+.\Release\StdAfx.obj
+.\Release\StringUtil.obj
+.\Release\MyDouBanProject.res
+]
+Creating command line "link.exe @C:\Users\hp\AppData\Local\Temp\RSPF151.tmp"
+<h3>Output Window</h3>
+Compiling...
+MyDouBanProjectDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/MyDouBanProject.bsc"  .\Release\StdAfx.sbr .\Release\common.sbr .\Release\MyDouBan.sbr .\Release\MyDouBanProject.sbr .\Release\MyDouBanProjectDlg.sbr .\Release\StringUtil.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MyDouBanProject.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
